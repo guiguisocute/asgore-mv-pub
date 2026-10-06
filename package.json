@@ -1,0 +1,14 @@
+{
+  "name": "asgore-mv",
+  "private": true,
+  "description": "A WebGL2 / pixel music video of the UNDERTALE Asgore fight, timed to Bergentrückung and ASGORE.",
+  "license": "MIT",
+  "scripts": {
+    "serve": "python tools/serve.py 4176",
+    "check": "node tools/check.cjs",
+    "render": "node tools/render.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
